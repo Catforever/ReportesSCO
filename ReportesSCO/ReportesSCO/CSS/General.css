@@ -1,0 +1,85 @@
+﻿#encabezado{
+    position:absolute;
+    top:3px;
+    left:10px;
+    background-repeat:no-repeat;
+    background-color:#640a2e;
+  text-align:center;
+    height:105px;
+    width:100%;
+}
+#contenedorGral{
+    position:absolute;
+    top:10%;
+    left:0.2%;
+    background-color:#f8faf3;
+    width:100%;
+    height:860px;
+
+}
+#PanelTreeview{
+    width:100%;
+    height:860px;
+}
+#Menu_Arbol {
+    position: relative;
+    left: 0.3%;
+    top: 0.2%;
+    max-height: 96%;
+    min-height: 30%;
+    height: 95%;
+    border: 1px solid #808080;
+    width: 19.5%;
+    min-width: 9%;
+    z-index: 1;
+    overflow: auto;
+    background-image: url('../Imagenes/FONDO_DIRECTORIO_40.jpg');
+    background-repeat:no-repeat;
+}
+#pdf{
+    width:99%;
+    height:auto
+}
+#visor_pdf{
+     position:relative;
+    left:20.5%;
+    top:-95.0%;
+    max-height:96%;
+    min-height:30%;
+    height:95%;
+    border: 1px solid #808080;
+    width:75%;
+    min-width:20%;
+    z-index:3;
+}
+#visor{
+    width:100%;
+    height:100%
+}
+
+.treenode {
+    color: #8e8d8b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:16px;
+   
+}
+
+#modal{
+    color:#000000;
+    opacity:0.6;
+    position:absolute;
+    top:0%;
+    left:0%;
+    width:100%;
+    height:100%;
+}
+
+.muestraComponente{
+    position:absolute;
+    left:50%;
+    top:0.3%;
+    width:100%;
+    height:800px;
+    margin:-50% 0 0 -50%;
+    background-color:#e0ea55;
+}
