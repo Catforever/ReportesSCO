@@ -16,7 +16,7 @@
     <RootNamespace>ReportesSCO</RootNamespace>
     <AssemblyName>ReportesSCO</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -102,10 +102,85 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\alerts\sweetalert2.css" />
+    <Content Include="Assets\alerts\sweetalert2.js" />
+    <Content Include="Assets\alerts\sweetalert2.min.css" />
+    <Content Include="Assets\alerts\sweetalert2.min.js" />
+    <Content Include="Assets\css\bootstrap-theme.css" />
+    <Content Include="Assets\css\bootstrap-theme.min.css" />
+    <Content Include="Assets\css\bootstrap.css" />
+    <Content Include="Assets\css\bootstrap.min.css" />
+    <Content Include="Assets\css\dataTables.responsive.css" />
+    <Content Include="Assets\css\images\calendario 3.png" />
+    <Content Include="Assets\css\images\calendario.png" />
+    <Content Include="Assets\css\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Assets\css\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="Assets\css\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="Assets\css\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="Assets\css\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Assets\css\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Assets\css\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="Assets\css\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Assets\css\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="Assets\css\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Assets\css\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="Assets\css\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="Assets\css\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Assets\css\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Assets\css\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="Assets\css\jquery-ui.css" />
+    <Content Include="Assets\css\jquery-ui.min.css" />
+    <Content Include="Assets\css\jquery-ui.structure.css" />
+    <Content Include="Assets\css\jquery-ui.structure.min.css" />
+    <Content Include="Assets\css\jquery-ui.theme.css" />
+    <Content Include="Assets\css\jquery-ui.theme.min.css" />
+    <Content Include="Assets\css\jquery.dataTables.css" />
+    <Content Include="Assets\css\jquery.dataTables.min.css" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Assets\js\bootstrap.js" />
+    <Content Include="Assets\js\bootstrap.min.js" />
+    <Content Include="Assets\js\dataTables.responsive.min.js" />
+    <Content Include="Assets\js\jquery-ui.js" />
+    <Content Include="Assets\js\jquery-ui.min.js" />
+    <Content Include="Assets\js\jquery.blockUI.js" />
+    <Content Include="Assets\js\jquery.dataTables.min.js" />
+    <Content Include="Assets\js\jquery.js" />
+    <Content Include="Assets\js\jquery.numeric.min.js" />
+    <Content Include="Assets\js\jquery.placeholder.min.js" />
+    <Content Include="Assets\js\jquery.validate.min.js" />
+    <Content Include="Assets\js\npm.js" />
+    <Content Include="Assets\ui-lightness\images\animated-overlay.gif" />
+    <Content Include="Assets\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Assets\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Assets\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Assets\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Assets\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Assets\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Assets\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Assets\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Assets\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Assets\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="Assets\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Assets\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Assets\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Assets\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Assets\ui-lightness\jquery-ui-1.10.4.custom.css" />
+    <Content Include="Assets\ui-lightness\jquery-ui-1.10.4.custom.min.css" />
+    <Content Include="CSS\login.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Imagenes\LOGOS-CIDIM-IPN.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\css\bootstrap-theme.css.map" />
+    <Content Include="Assets\css\bootstrap-theme.min.css.map" />
+    <Content Include="Assets\css\bootstrap.css.map" />
+    <Content Include="Assets\css\bootstrap.min.css.map" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Properties\PublishProfiles\VisorSCO.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -115,7 +190,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Default.aspx" />
+    <Content Include="scripts\login.js" />
+    <Content Include="VisorDocumentos.aspx" />
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
@@ -129,6 +205,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="VisorDocumentos.aspx.cs">
+      <DependentUpon>VisorDocumentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VisorDocumentos.aspx.designer.cs">
+      <DependentUpon>VisorDocumentos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -137,8 +220,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="clases\" />
-    <Folder Include="CSS\" />
-    <Folder Include="Imagenes\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -162,7 +243,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>2617</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:2617/</IISUrl>
+          <IISUrl>http://localhost/visorsco</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
